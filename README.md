@@ -23,4 +23,14 @@
 ### Result
 ![image](https://user-images.githubusercontent.com/86593756/179389341-5d040cda-a243-49bf-b04a-3394e8a4fdcc.png)
 
-## 4. 
+## 4. How many years did all the inventors live all together?
+
+### Code 
+![image](https://user-images.githubusercontent.com/86593756/179389790-f6d7a294-ab72-41a5-adf8-0a55e6d6e4d8.png)
+
+##  5. Sort the inventors by years lived
+### Code
+![image](https://user-images.githubusercontent.com/86593756/179389809-2bf48f07-d2c8-4d23-98af-2b89e5d0357e.png)
+
+### Result
+![image](https://user-images.githubusercontent.com/86593756/179389857-a598f20a-4c3a-4070-83b9-eb37374d9514.png)
