@@ -42,3 +42,11 @@
 ### Result
 ![image](https://user-images.githubusercontent.com/86593756/179389941-3ac61c05-90bb-4e08-ad3b-688d5d952f17.png)
 
+## 7. Sort the people alphabetically by last name
+### Code
+![image](https://user-images.githubusercontent.com/86593756/179390061-940399ea-5378-44eb-9aef-3a003be71b23.png)
+
+### Result
+![image](https://user-images.githubusercontent.com/86593756/179390031-236cb8b4-bb58-41e1-b982-56db67f05fd4.png)
+
+
