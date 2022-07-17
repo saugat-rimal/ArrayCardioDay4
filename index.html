@@ -134,17 +134,18 @@
             'Biondo, Frank'
         ];
 
+
         // Array.prototype.filter()
         // 1. Filter the list of inventors for those who were born in the 1500's
 
 
-        const fifteen = inventors.filter(function (inventor) {
-            if (inventor.year >= 1500 && inventor.year < 1600) {
-                return true; //keep it
-            }
-        });
+        // const fifteen = inventors.filter(function (inventor) {
+        //     if (inventor.year >= 1500 && inventor.year < 1600) {
+        //         return true; //keep it
+        //     }
+        // });
 
-        console.table(fifteen);
+        // console.table(fifteen);
 
 
         // or 
@@ -156,13 +157,14 @@
 
         // Array.prototype.map()
         // 2. Give us an array of the inventors first and last names
+
         const fullNames = inventors.map(inventor => inventor.first + " " + inventor.last);
 
         const fullName = inventors.map(inventor => `${inventor.first} ${inventor.last}`);
 
-        // console.log(fullNames);
+        console.log(fullNames);
 
-        // console.table(fullName);
+        console.table(fullName);
 
 
 
@@ -183,8 +185,8 @@
         // short method
 
         const ordered = inventors.sort((a, b) => a.year > b.year ? 1 : -1);
-        // console.log(ordered)
-        // console.table(ordered)
+        console.log(ordered)
+        console.table(ordered)
 
 
 
@@ -192,46 +194,46 @@
         // 4. How many years did all the inventors live all together?
 
 
+        const totalYear = inventors.reduce((total, inventor) => {
+            return total + (inventor.passed - inventor.year);
+        }, 0)
 
-        // const totalYear = inventors.reduce((total, inventor) => {
-        //     return total + (inventor.passed - inventor.year);
-        // }, 0)
-
-        //  console.log(totalYear);
+        console.log(totalYear);
 
         // 5. Sort the inventors by years lived
 
 
-        // const oldest = inventors.sort(function (a, b) {
-        //     const lastGuy = a.passed - a.year;
-        //     const firstGuy = b.passed - b.year;
-        //     if (lastGuy > firstGuy) {
-        //         return -1;
-        //     } else {
-        //         return 1;
-        //     }
+        const oldest = inventors.sort(function (a, b) {
+            const lastGuy = a.passed - a.year;
+            const firstGuy = b.passed - b.year;
+            if (lastGuy > firstGuy) {
+                return -1;
+            } else {
+                return 1;
+            }
 
-        // })
+        })
 
-        // console.log(oldest)
-        // console.table(oldest)
+        console.log(oldest)
+        console.table(oldest)
 
         // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
         //https: //en.wikipedia.org/wiki/Category:Boulevards_in_Paris
 
 
-        //      const category = document.querySelector('.mw-category');
+        // const category = document.querySelector('.mw-category');
         // const links = category.querySelectorAll('a');
 
         // Make NodeList to array 
-
-        //      const links = Array.from(category.querySelectorAll('a')); //or
+        //  const links = Array.from(category.querySelectorAll('a')); //or
         //  const links = [...category.querySelectorAll('a');]
 
+        // Now map and filter 
         //    const de = links.map(link => link.textContent);
 
 
-        // in format 
+        // in Format 
+
         // const category = document.querySelector('.mw-category');
         // const links = Array.from(category.querySelectorAll('a'));
         // const de = links
@@ -243,20 +245,19 @@
 
         // 7. sort Exercise
         // Sort the people alphabetically by last name
-        // const peoplelist = people.sort(function (lastOne, nextOne) {
-        //     //  const parts = lastOne.split(', ');
-        //     const [aLast, aFirst] = lastOne.split(', ');
-        //     const [bLast, bFirst] = nextOne.split(', ');
+        const peoplelist = people.sort(function (lastOne, nextOne) {
+            //  const parts = lastOne.split(', ');
+            const [aLast, aFirst] = lastOne.split(', ');
+            const [bLast, bFirst] = nextOne.split(', ');
 
-        //     return aLast > bLast ? 1 : -1;
+            return aLast > bLast ? 1 : -1;
 
-        //     //  console.log(last, first)
+            //  console.log(last, first)
 
-        // })
+        })
 
-
-        // console.log(peoplelist)
-        // console.table(peoplelist)
+        console.log(peoplelist)
+        console.table(peoplelist)
 
         // 8. Reduce Exercise
         // Sum up the instances of each of these
@@ -276,8 +277,6 @@
 
         console.table(transportation)
         console.log(transportation)
-
-        console.log("Sum up the instances of each of these")
     </script>
 </body>
 
