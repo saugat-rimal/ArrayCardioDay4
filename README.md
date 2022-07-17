@@ -49,4 +49,11 @@
 ### Result
 ![image](https://user-images.githubusercontent.com/86593756/179390031-236cb8b4-bb58-41e1-b982-56db67f05fd4.png)
 
+## 8. Reduce Exercise -  Sum up the instances of each of these
+
+### Code
+![image](https://user-images.githubusercontent.com/86593756/179390144-41714123-dd3f-4a8b-8d2e-e02fe304f4af.png)
+
+### Result
+![image](https://user-images.githubusercontent.com/86593756/179390186-417981ad-922a-40e6-87ed-3c3530b8bd43.png)
 
