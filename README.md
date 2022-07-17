@@ -14,3 +14,13 @@
 
 ### Result
 ![image](https://user-images.githubusercontent.com/86593756/179389257-047e1a70-73d2-4548-b721-e381bfbce052.png)
+
+## 3. Sort the inventors by birthdate, oldest to youngest
+
+### Code
+![image](https://user-images.githubusercontent.com/86593756/179389323-b444e350-6440-4120-b821-47a476041a91.png)
+
+### Result
+![image](https://user-images.githubusercontent.com/86593756/179389341-5d040cda-a243-49bf-b04a-3394e8a4fdcc.png)
+
+## 4. 
