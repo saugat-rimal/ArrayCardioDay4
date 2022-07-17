@@ -34,3 +34,11 @@
 
 ### Result
 ![image](https://user-images.githubusercontent.com/86593756/179389857-a598f20a-4c3a-4070-83b9-eb37374d9514.png)
+
+## 6.create a list of Boulevards in Paris that contain 'de' anywhere in the name
+### Code
+![image](https://user-images.githubusercontent.com/86593756/179389893-6387d220-ff24-4ac0-88b9-610b8b51a884.png)
+
+### Result
+![image](https://user-images.githubusercontent.com/86593756/179389941-3ac61c05-90bb-4e08-ad3b-688d5d952f17.png)
+
